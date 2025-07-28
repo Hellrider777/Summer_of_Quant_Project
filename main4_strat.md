@@ -44,23 +44,17 @@ Active positions are monitored and exited if:
 
 # Long Position
 
-📉 Reversal Signal: Volume spike + red candle + RSI ≤ short threshold → reverse to short
-
-❌ 3 consecutive closes ≤ previous → exit
-
-🛑 Trailing stop hit → exit
-
-🔁 Trailing stop updated upward only
+Reversal Signal: Volume spike + red candle + RSI ≤ short threshold → reverse to short
+3 consecutive closes ≤ previous → exit
+Trailing stop hit → exit
+Trailing stop updated upward only
 
 # Short Position
 
-📈 Reversal Signal: Volume spike + green candle + RSI ≥ long threshold → reverse to long
-
-❌ 3 consecutive closes ≥ previous → exit
-
-🛑 Trailing stop hit → exit
-
-🔁 Trailing stop updated downward only
+Reversal Signal: Volume spike + green candle + RSI ≥ long threshold → reverse to long
+3 consecutive closes ≥ previous → exit
+Trailing stop hit → exit
+Trailing stop updated downward only
 
 # Key Parameters
 
